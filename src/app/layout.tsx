@@ -16,14 +16,21 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://recognate.ai'),
+  metadataBase: new URL('https://recognate.vercel.app'),
   title: {
     default: "ReCognate | AI & IoT Product Development Company",
     template: "%s | ReCognate"
   },
   description: "ReCognate is an innovative AI and IoT product development company focused on transforming creative ideas into intelligent, connected, scalable, and real-world technology solutions. We specialize in software engineering, embedded systems, and enterprise architecture.",
-  keywords: ["AI development", "IoT solutions", "Software engineering", "Product development", "Embedded systems", "Enterprise architecture"],
-  authors: [{ name: "ReCognate Team", url: "https://recognate.ai" }],
+  keywords: [
+    "AI development", "IoT solutions", "Software engineering", "Product development", 
+    "Embedded systems", "Enterprise architecture", "final year project", "ai projects", 
+    "ml projects", "computer vision projects", "deep learning projects", "IoT Projects", 
+    "embedded projects", "full stack development", "web development", "website building", 
+    "all types of software", "app development", "custom hardware", "student projects",
+    "tech solutions"
+  ],
+  authors: [{ name: "ReCognate Team", url: "https://recognate.vercel.app" }],
   creator: "ReCognate",
   publisher: "ReCognate",
   alternates: {
@@ -32,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://recognate.ai",
+    url: "https://recognate.vercel.app",
     title: "ReCognate | AI & IoT Product Development Company",
     description: "Transforming creative ideas into intelligent, connected, scalable technology solutions.",
     siteName: "ReCognate",
@@ -49,10 +56,10 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://recognate.ai/#organization",
+      "@id": "https://recognate.vercel.app/#organization",
       "name": "ReCognate",
-      "url": "https://recognate.ai",
-      "logo": "https://recognate.ai/logo.png",
+      "url": "https://recognate.vercel.app",
+      "logo": "https://recognate.vercel.app/logo.png",
       "description": "An innovative AI and IoT product development company.",
       "contactPoint": {
         "@type": "ContactPoint",
@@ -65,11 +72,11 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://recognate.ai/#website",
-      "url": "https://recognate.ai",
+      "@id": "https://recognate.vercel.app/#website",
+      "url": "https://recognate.vercel.app",
       "name": "ReCognate",
       "publisher": {
-        "@id": "https://recognate.ai/#organization"
+        "@id": "https://recognate.vercel.app/#organization"
       }
     }
   ]

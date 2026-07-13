@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Products | ReCognate Ecosystem",
   description: "Discover ReCognate's suite of proprietary AI software and interconnected hardware products designed for modern enterprises.",
   alternates: {
-    canonical: "https://recognate.ai/products",
+    canonical: "https://recognate.vercel.app/products",
   }
 };
 
@@ -13,9 +13,9 @@ const jsonLd = {
   "@type": "CollectionPage",
   "name": "ReCognate Products",
   "description": "Proprietary AI software and interconnected hardware products by ReCognate.",
-  "url": "https://recognate.ai/products",
+  "url": "https://recognate.vercel.app/products",
   "publisher": {
-    "@id": "https://recognate.ai/#organization"
+    "@id": "https://recognate.vercel.app/#organization"
   }
 };
 

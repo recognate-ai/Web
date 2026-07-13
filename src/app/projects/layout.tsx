@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Projects | ReCognate Portfolio",
   description: "View our portfolio of successful AI and IoT projects. See how ReCognate builds scalable and robust technology solutions for our clients.",
   alternates: {
-    canonical: "https://recognate.ai/projects",
+    canonical: "https://recognate.vercel.app/projects",
   }
 };
 
@@ -13,9 +13,9 @@ const jsonLd = {
   "@type": "CollectionPage",
   "name": "ReCognate Project Portfolio",
   "description": "Portfolio of AI and IoT projects developed by ReCognate.",
-  "url": "https://recognate.ai/projects",
+  "url": "https://recognate.vercel.app/projects",
   "publisher": {
-    "@id": "https://recognate.ai/#organization"
+    "@id": "https://recognate.vercel.app/#organization"
   }
 };
 

@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://recognate.ai'
+  const baseUrl = 'https://recognate.vercel.app'
 
   return {
     rules: {

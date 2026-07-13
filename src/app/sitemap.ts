@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://recognate.ai' // Update if the actual domain is different
+  const baseUrl = 'https://recognate.vercel.app' // Update if the actual domain is different
 
   const routes = [
     '',

@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "R&D | AI & IoT Innovation Lab",
   description: "Explore the ReCognate Research & Development Innovation Lab. We continuously explore cutting-edge AI and hardware technologies to define the future.",
   alternates: {
-    canonical: "https://recognate.ai/rd",
+    canonical: "https://recognate.vercel.app/rd",
   }
 };
 
@@ -13,9 +13,9 @@ const jsonLd = {
   "@type": "WebPage",
   "name": "ReCognate R&D Innovation Lab",
   "description": "Research & Development initiatives by ReCognate in AI, IoT, and Next-Gen Hardware.",
-  "url": "https://recognate.ai/rd",
+  "url": "https://recognate.vercel.app/rd",
   "publisher": {
-    "@id": "https://recognate.ai/#organization"
+    "@id": "https://recognate.vercel.app/#organization"
   }
 };
 

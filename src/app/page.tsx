@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "ReCognate | AI & IoT Product Development Hub",
   description: "ReCognate partners with businesses to build custom AI software, enterprise applications, and embedded IoT systems that solve complex industry challenges.",
   alternates: {
-    canonical: "https://recognate.ai/",
+    canonical: "https://recognate.vercel.app/",
   }
 };
 
@@ -28,9 +28,9 @@ const jsonLd = {
   "@type": "WebPage",
   "name": "ReCognate | AI & IoT Product Development Hub",
   "description": "ReCognate partners with businesses to build custom AI software, enterprise applications, and embedded IoT systems.",
-  "url": "https://recognate.ai/",
+  "url": "https://recognate.vercel.app/",
   "publisher": {
-    "@id": "https://recognate.ai/#organization"
+    "@id": "https://recognate.vercel.app/#organization"
   }
 };
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Contact ReCognate | Enterprise AI & IoT Engineering",
   description: "Get in touch with ReCognate to discuss your AI, IoT, and custom software development needs. Headquartered in Vellore & Coimbatore, serving global clients.",
   alternates: {
-    canonical: "https://recognate.ai/contact",
+    canonical: "https://recognate.vercel.app/contact",
   }
 };
 
@@ -17,8 +17,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "ReCognate",
-  "image": "https://recognate.ai/logo.png",
-  "url": "https://recognate.ai/contact",
+  "image": "https://recognate.vercel.app/logo.png",
+  "url": "https://recognate.vercel.app/contact",
   "email": "recognate.ai@gmail.com",
   "telephone": "9487407198",
   "address": {
@@ -33,7 +33,7 @@ const jsonLd = {
   },
   "priceRange": "$$$",
   "sameAs": [
-    "https://recognate.ai"
+    "https://recognate.vercel.app"
   ]
 };
 

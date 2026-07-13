@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "About ReCognate | Our Story & Leadership",
   description: "Learn about ReCognate's mission, vision, and the leadership team driving our AI and IoT engineering excellence.",
   alternates: {
-    canonical: "https://recognate.ai/about",
+    canonical: "https://recognate.vercel.app/about",
   }
 };
 
@@ -13,9 +13,9 @@ const jsonLd = {
   "@type": "AboutPage",
   "name": "About ReCognate",
   "description": "Learn about ReCognate's mission, vision, and the leadership team driving our AI and IoT engineering excellence.",
-  "url": "https://recognate.ai/about",
+  "url": "https://recognate.vercel.app/about",
   "publisher": {
-    "@id": "https://recognate.ai/#organization"
+    "@id": "https://recognate.vercel.app/#organization"
   }
 };
 

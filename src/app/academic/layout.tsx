@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Final Year Student Projects | ReCognate",
   description: "Browse our collection of high-quality Final Year Projects for college students. Includes complete source code, comprehensive reports, and presentations.",
   alternates: {
-    canonical: "https://recognate.ai/academic",
+    canonical: "https://recognate.vercel.app/academic",
   }
 };
 
@@ -13,9 +13,9 @@ const jsonLd = {
   "@type": "CollectionPage",
   "name": "ReCognate Student Projects",
   "description": "High-quality Final Year Student Projects with reports and presentations.",
-  "url": "https://recognate.ai/academic",
+  "url": "https://recognate.vercel.app/academic",
   "publisher": {
-    "@id": "https://recognate.ai/#organization"
+    "@id": "https://recognate.vercel.app/#organization"
   }
 };
 

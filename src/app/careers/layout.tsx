@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Careers | Join ReCognate",
   description: "Join the ReCognate team and help us build the next generation of AI and IoT solutions. Explore our open positions and career opportunities.",
   alternates: {
-    canonical: "https://recognate.ai/careers",
+    canonical: "https://recognate.vercel.app/careers",
   }
 };
 
@@ -13,9 +13,9 @@ const jsonLd = {
   "@type": "WebPage",
   "name": "Careers at ReCognate",
   "description": "Explore career opportunities at ReCognate in AI, Software Engineering, and IoT Development.",
-  "url": "https://recognate.ai/careers",
+  "url": "https://recognate.vercel.app/careers",
   "publisher": {
-    "@id": "https://recognate.ai/#organization"
+    "@id": "https://recognate.vercel.app/#organization"
   }
 };
 

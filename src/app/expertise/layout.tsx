@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Expertise | AI, IoT & Cloud Engineering",
   description: "Explore ReCognate's core competencies in Artificial Intelligence, Internet of Things, Enterprise Software, and Embedded Systems development.",
   alternates: {
-    canonical: "https://recognate.ai/expertise",
+    canonical: "https://recognate.vercel.app/expertise",
   }
 };
 
@@ -13,9 +13,9 @@ const jsonLd = {
   "@type": "Service",
   "serviceType": "Software Engineering & IoT Development",
   "provider": {
-    "@id": "https://recognate.ai/#organization"
+    "@id": "https://recognate.vercel.app/#organization"
   },
-  "url": "https://recognate.ai/expertise",
+  "url": "https://recognate.vercel.app/expertise",
   "description": "Expertise in AI, IoT, Cloud, and Embedded Systems.",
   "areaServed": "Worldwide"
 };
