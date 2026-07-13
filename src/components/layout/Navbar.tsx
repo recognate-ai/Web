@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion';
@@ -29,6 +29,17 @@ export default function Navbar() {
     setScrolled(latest > 50);
   });
 
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [mobileMenuOpen]);
+
   if (pathname?.startsWith('/admin')) {
     return null;
   }
@@ -42,7 +53,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group z-50">
-          <div className="relative w-80 md:w-96 h-full flex items-center justify-start -ml-6 md:-ml-8 mt-2 md:mt-4">
+          <div className="relative w-80 md:w-96 h-full flex items-center justify-start -ml-16 md:-ml-8 mt-2 md:mt-4">
             {pathname === '/' ? (
               scrolled && (
                 <motion.div 
@@ -101,7 +112,7 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="fixed inset-0 z-40 bg-[#0a0f1d] pt-24 px-6 pb-6 overflow-y-auto"
+            className="fixed top-0 left-0 w-full h-[100dvh] z-40 bg-[#0a0f1d] pt-24 px-6 pb-6 overflow-y-auto"
           >
             <ul className="flex flex-col gap-6">
               {navLinks.map((link) => (

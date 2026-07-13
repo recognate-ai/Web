@@ -71,7 +71,7 @@ export default function HeroSection() {
           {!isScrolled && (
             <motion.div
               layoutId="main-logo"
-              className="w-full max-w-[1600px] h-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.05)] scale-110 md:scale-125 lg:scale-[1.35] z-10 origin-center"
+              className="w-full max-w-[1600px] h-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.05)] scale-[1.6] md:scale-125 lg:scale-[1.35] z-10 origin-center"
             >
               <RecognateLogo animated={true} />
             </motion.div>
@@ -80,7 +80,7 @@ export default function HeroSection() {
           {/* Development Hub Tagline - Rendered in its own static overlay SVG */}
           <svg
             viewBox="0 0 1536 1024"
-            className="w-full max-w-[1600px] h-auto absolute inset-0 pointer-events-none scale-110 md:scale-125 lg:scale-[1.35] z-0"
+            className="w-full max-w-[1600px] h-auto absolute inset-0 pointer-events-none scale-[1.6] md:scale-125 lg:scale-[1.35] z-0"
             preserveAspectRatio="xMidYMid meet"
           >
             <g style={{ transformOrigin: "center" }}>
