@@ -29,7 +29,7 @@ export default function CtaSection() {
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "0px 0px -50px 0px" }}
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto text-center glass-card p-10 md:p-16 border border-white/10 shadow-2xl relative overflow-hidden"
         >

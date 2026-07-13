@@ -48,7 +48,7 @@ export default function WhyChooseUsSection() {
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "0px 0px -50px 0px" }}
             transition={{ duration: 0.6 }}
             className="lg:w-1/3"
           >
@@ -69,7 +69,7 @@ export default function WhyChooseUsSection() {
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "0px 0px -50px 0px" }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
                 className="glass-card p-6 border-white/5 hover:border-blue-500/30 transition-all group flex items-start gap-4"
               >

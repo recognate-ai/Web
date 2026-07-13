@@ -43,7 +43,7 @@ export default function IndustriesSection() {
               key={ind.id}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "0px 0px -50px 0px" }}
               transition={{ duration: 0.4, delay: index * 0.05 }}
               className="glass-card p-6 flex flex-col items-center text-center group hover:bg-white/10 hover:border-blue-500/30 transition-all duration-300"
             >

@@ -317,7 +317,7 @@ export default function IdeaBulbAnimation() {
       {/* Ambient background glow */}
       <div className="absolute w-80 h-80 rounded-full bg-cyan-500/10 blur-[100px] pointer-events-none -z-10" />
       
-      <Canvas camera={{ position: [0, 1, 8], fov: 45 }}>
+      <Canvas camera={{ position: [0, 1, 8], fov: 45 }} dpr={[1, 1.5]} performance={{ min: 0.5 }}>
         
         {/* Lighting */}
         <ambientLight intensity={0.8} color="#e0e7ff" />

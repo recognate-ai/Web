@@ -40,7 +40,7 @@ export default function AboutSection() {
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "0px 0px -50px 0px" }}
             transition={{ duration: 0.6 }}
             className="lg:w-1/2 space-y-6"
           >
@@ -65,7 +65,7 @@ export default function AboutSection() {
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "0px 0px -50px 0px" }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="p-6 border-white/5 hover:border-blue-500/30"
               >

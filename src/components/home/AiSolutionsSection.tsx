@@ -66,7 +66,7 @@ export default function AiSolutionsSection() {
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "0px 0px -50px 0px" }}
             transition={{ duration: 0.6 }}
             className="lg:w-1/2"
           >
@@ -97,7 +97,7 @@ export default function AiSolutionsSection() {
             ref={visualRef}
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "0px 0px -50px 0px" }}
             transition={{ duration: 0.8 }}
             className="lg:w-1/2 w-full h-[400px] relative flex items-center justify-center"
           >
