@@ -49,6 +49,16 @@ export const metadata: Metadata = {
     title: "ReCognate | AI & IoT Product Development Company",
     description: "Transforming creative ideas into intelligent, connected, scalable technology solutions.",
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png' }
+    ],
+  },
 };
 
 const jsonLd = {
@@ -59,7 +69,7 @@ const jsonLd = {
       "@id": "https://recognate.vercel.app/#organization",
       "name": "ReCognate",
       "url": "https://recognate.vercel.app",
-      "logo": "https://recognate.vercel.app/logo.png",
+      "logo": "https://recognate.vercel.app/logo.jpg",
       "description": "An innovative AI and IoT product development company.",
       "contactPoint": {
         "@type": "ContactPoint",
