@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://recognate.vercel.app' // Update if the actual domain is different
+  const lastModified = new Date().toISOString().split('T')[0]
 
   const routes = [
     '',
@@ -13,8 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/careers',
     '/contact',
   ].map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date(),
+    url: `${baseUrl}${route === '' ? '/' : route}`,
+    lastModified,
     changeFrequency: 'weekly' as const,
     priority: route === '' ? 1 : 0.8,
   }))
